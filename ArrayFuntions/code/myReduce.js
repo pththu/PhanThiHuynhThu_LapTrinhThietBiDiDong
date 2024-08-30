@@ -12,4 +12,5 @@ Array.prototype.myReduce = function (callbackFn, initialValue) {
 }
 
 console.log(`arr reduce: ${arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0)}`);
-console.log(`arr myReduce: ${arr.myReduce((accumulator, currentValue) => accumulator + currentValue, 0)}`);
+console.log(`arr myReduce 1: ${arr.myReduce((accumulator, currentValue) => accumulator + currentValue, 0)}`);
+console.log(`arr myReduce 1: ${arr.myReduce((accumulator, currentValue) => accumulator + currentValue)}`);
